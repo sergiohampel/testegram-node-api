@@ -1,0 +1,23 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "Cadastro de produtos.",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sérgio Hampel",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.12.3",
+    "cors": "^2.7.1",
+    "event-stream": "^3.3.4",
+    "express": "^4.12.3",
+    "jsonwebtoken": "^7.0.0",
+    "mongoose": "^4.0.2",
+    "run-sequence": "^1.2.2",
+    "socket.io": "^1.4.8"
+  }
+}
